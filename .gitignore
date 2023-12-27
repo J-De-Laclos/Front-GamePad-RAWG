@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 /build
+
+# Ignore les fichiers générés lors du build
+dist/

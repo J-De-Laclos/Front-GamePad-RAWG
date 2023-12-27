@@ -1,4 +1,7 @@
-RAWG GamePad Replica
+# RAWG GamePad Replica
+
+Tu peux accéder directemnt à la version en ligne déployé sur Netlify
+https://rawg-gamepad-replica.netlify.app/
 
 ## Installation
 

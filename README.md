@@ -3,13 +3,17 @@ RAWG GamePad Replica
 ## Installation
 
 Assure-toi d'avoir Node.js installé.
+
 Clone le repository : git clone https://github.com/J-De-Laclos/Front-GamePad-RAWG.git
+
 Navigue vers le répertoire du projet : cd rawg-gamepad-replica
+
 Installe les dépendances avec Yarn: yarn
 
 ## Utilisation
 
 Exécute l'application : yarn dev
+
 Accède à l'application dans ton navigateur à http://localhost:3000
 
 ## Captures d'écran

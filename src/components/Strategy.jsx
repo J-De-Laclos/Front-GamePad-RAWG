@@ -15,6 +15,9 @@ const Strategy = ({ search }) => {
         const response = await axios.get(
           `https://site--back-gamepad-rawg--f5vs5q45f4mj.code.run/strategy?genres=${"strategy"}`
         );
+        // const response = await axios.get(
+        //   `http://localhost:3000/strategy?genres=${"strategy"}`
+        // );
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

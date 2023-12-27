@@ -19,6 +19,9 @@ const Favorites = ({ token }) => {
             token,
           }
         );
+        // const response = await axios.post(`http://localhost:3000/favorites`, {
+        //   token,
+        // });
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

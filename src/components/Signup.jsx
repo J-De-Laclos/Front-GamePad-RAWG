@@ -28,6 +28,11 @@ const Signup = ({ handleToken }) => {
             password: password,
           }
         );
+        // const response = await axios.post("http://localhost:3000/user/signup", {
+        //   email: email,
+        //   username: username,
+        //   password: password,
+        // });
         if (response.data.token) {
           handleToken(response.data.token);
         }

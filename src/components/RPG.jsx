@@ -15,6 +15,9 @@ const RPG = ({ search }) => {
         const response = await axios.get(
           `https://site--back-gamepad-rawg--f5vs5q45f4mj.code.run/rpg?genres=${"role-playing-games-rpg"}`
         );
+        // const response = await axios.get(
+        //   `http://localhost:3000/rpg?genres=${"role-playing-games-rpg"}`
+        // );
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

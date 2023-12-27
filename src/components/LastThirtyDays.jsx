@@ -13,8 +13,11 @@ const LastThirtyDays = ({ search }) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `https://site--back-gamepad-rawg--f5vs5q45f4mj.code.run/discover/last-30-days?dates=${"2022-12-01,2022-12-31"}`
+          `https://site--rawg-backend--dk8jf2pny52x.code.run/discover/last-30-days?dates=${"2022-12-01,2022-12-31"}`
         );
+        // const response = await axios.get(
+        //   `http://localhost:3000/discover/last-30-days?dates=${"2022-12-01,2022-12-31"}`
+        // );
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

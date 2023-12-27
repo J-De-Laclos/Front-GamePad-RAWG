@@ -15,6 +15,9 @@ const NextWeek = ({ search }) => {
         const response = await axios.get(
           `https://site--back-gamepad-rawg--f5vs5q45f4mj.code.run/discover/next-week?dates=${"2022-12-30,2022-12-31"}`
         );
+        // const response = await axios.get(
+        //   `http://localhost:3000/discover/next-week?dates=${"2022-12-30,2022-12-31"}`
+        // );
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

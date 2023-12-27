@@ -19,6 +19,7 @@ const Game = ({ token }) => {
         const response = await axios.get(
           `https://site--back-gamepad-rawg--f5vs5q45f4mj.code.run/game?id=${id}`
         );
+        // const response = await axios.get(`http://localhost:3000/game?id=${id}`);
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

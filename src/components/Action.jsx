@@ -15,6 +15,9 @@ const Action = ({ search }) => {
         const response = await axios.get(
           `https://site--back-gamepad-rawg--f5vs5q45f4mj.code.run/action?genres=${"action"}`
         );
+        // const response = await axios.get(
+        //   `http://localhost:3000/action?genres=${"action"}`
+        // );
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

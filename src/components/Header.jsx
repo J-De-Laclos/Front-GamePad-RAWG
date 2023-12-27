@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = ({ search, setSearch, handleToken, token }) => {
-  console.log(token);
+  // console.log(token);
   return (
     <div className="header">
       <div className="logo-search">

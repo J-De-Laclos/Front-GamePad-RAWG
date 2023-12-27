@@ -15,6 +15,9 @@ const Home = ({ token, search }) => {
         const response = await axios.get(
           `https://site--back-gamepad-rawg--f5vs5q45f4mj.code.run/home?search=${search}`
         );
+        // const response = await axios.get(
+        //   `http://localhost:3000/home?search=${search}`
+        // );
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

@@ -26,6 +26,10 @@ const Login = ({ handleToken }) => {
             password: password,
           }
         );
+        // const response = await axios.post("http://localhost:3000/user/login", {
+        //   email: email,
+        //   password: password,
+        // });
         if (response.data.token) {
           handleToken(response.data.token);
         }
